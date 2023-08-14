@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>João Vitor Costa - Portfólio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+          <ul>
+            <li><a class="smooth-scroll" href="#about">Sobre Mim</a></li>
+            <li><a class="smooth-scroll" href="#technologies">tecnologias</a></li>
+            <li><a class="smooth-scroll" href="#projects">Projetos</a></li>
+            <li><a class="smooth-scroll" href="#contact">Contato</a></li>
+          </ul>
+        </nav>
+    </header>
+    
+    <section id="about">
+        <div class="about-image">
+          <img src="./images/profile.jpg" alt="João Vitor Costa">
+        </div>
+        <div class="about-text">
+          <h1>Sobre Mim</h1>
+          <p class="about-p"><strong>Hello world!</strong> Me chamo João Vitor Costa e sou programador FrontEnd. Estudo Ciência da Computação na UNESC e comecei a pouco tempo a me aprofundar no mundo da programação web. Faço curso na OneBitCode onde estou aprendendo tecnologias como CSS, JavaScript, TypeScript, NodeJS, React. Posto meu progresso em meu <a href="https://github.com/JoaoVitorCRamos" target="_blank">GitHub</a></p>
+        </div>
+    </section>
+
+    <section id="technologies">
+      <h1>Tecnologias</h1>
+      <div class="technologies-container">
+        <div class="div-technologies">
+          <img class="tech-image" src="./images/javascript.png" alt="JavaScript">
+          <h3>JavaScript</h3>
+        </div>
+        <div class="div-technologies">
+          <img class="tech-image" src="./images/css.png" alt="CSS">
+          <h3>CSS</h3>
+        </div>
+        <div class="div-technologies">
+          <img class="tech-image" src="./images/nodejs.png" alt="NodeJS">
+          <h3>NodeJS</h3>
+        </div>
+        <div class="div-technologies">
+          <img class="tech-image" src="./images/mysql.png" alt="MySql">
+          <h3>MySql</h3>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects">
+      <h1>Projetos</h1>
+        <div class="projects-container">
+          <div class="project">
+            <h2>Calculadora</h2>
+            <p>CSalculadora responsiva usando HTML, CSS e JavaScript. Foi feito nos modulos da OneBitCode</p>
+            <a href="https://joaovitorcramos.github.io/Calculadora/" target="_blank"><img src="./images/calculadora.PNG" alt="calculadora"></a>
+          </div>
+          <div class="project">
+            <h2>Jogo da Velha</h2>
+            <p>Jogo da velha responsivo usando HTML, CSS e JavaScript. Foi feito nos modulos da OneBitCode</p>
+            <a href="https://joaovitorcramos.github.io/JogoDaVelha/" target="_blank"><img src="./images/jogodavelha.PNG" alt="jogodavelha"></a>
+          </div>
+          <div class="project">
+            <h2>Site de Exibição</h2>
+            <p>Site de mostrar personagens responsivo usando HTML, CSS e JavaScript. Feito nas aulas de web2 para testar conhecimentos</p>
+            <a href="https://joaovitorcramos.github.io/aula1TesteCss/" target="_blank"><img src="./images/valheimboses.PNG" alt="valheimboss"></a>
+          </div>
+        </div>
+    </section>
+
+    <section id="contact">
+      <h1>Contato</h1>
+      <h3>Quer trabalhar comigo? Envie uma Mensagem!</h3>
+      <ul>
+        <a class="img-contacts" href="https://github.com/JoaoVitorCRamos" target="_blank"><img src="./images/github.png" alt="github"></a>
+        <a class="img-contacts" href="https://api.whatsapp.com/send/?phone=%2B55048998616619&text&type=phone_number&app_absent=0" target="_blank"><img src="./images/whatsapp.png" alt="whatsapp"></a>
+        <a class="img-contacts" href="https://www.instagram.com/joaovitorcostar/" target="_blank"><img src="./images/instagram.png" alt="instagram"></a>
+        <a class="img-contacts" href="https://www.linkedin.com/in/jo%C3%A3o-vitor-costa-383519271/" target="_blank"><img src="./images/linkedin.png" alt="linkedin"></a>
+      </ul>
+      <form action="mailto:joao.v.c11@hotmail.com" method="post" enctype="text/plain">
+        <label for="name">Nome:</label>
+        <input type="text" id="name" name="name" required>
+    
+        <label for="email">E-mail:</label>
+        <input type="email" id="email" name="email" required>
+    
+        <label for="message">Mensagem:</label>
+        <textarea id="message" name="message" rows="4" required></textarea>
+    
+        <button type="submit">Enviar</button>
+      </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 João Vitor Costa Ramos. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
