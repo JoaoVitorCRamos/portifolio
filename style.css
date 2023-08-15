@@ -127,8 +127,8 @@ section h1 {
 
 /* Objectives section styles */
 #objectives {
-    padding: 50px;
     background-color: #f4f4f4;
+    padding: 50px;
     text-align: center;
 }
 
@@ -138,9 +138,10 @@ section h1 {
 }
 
 #objectives p {
-    color: #666;
+    color: #555;
     font-size: 18px;
-    max-width: 600px;
+    line-height: 1.5;
+    max-width: 800px;
     margin: 0 auto;
 }
   
