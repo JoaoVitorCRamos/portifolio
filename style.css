@@ -61,8 +61,8 @@ section h1 {
     margin-bottom: 20px;
 }
   
-  /* About section styles */
-  #about {
+/* About section styles */
+#about {
     padding: 50px;
     display: flex;
     justify-content: center;
@@ -198,20 +198,20 @@ section h1 {
 /* Media query for smaller screens */
 @media screen and (max-width: 768px) {
     .projects-container {
-        flex-direction: column; /* Display projects in a single column */
-        align-items: center; /* Center projects horizontally */
+        flex-direction: column; 
+        align-items: center; 
     }
 
     .project {
-        width: 100%; /* Display projects with full width */
-        margin: 0 0 20px 0; /* Adjust margin for spacing between projects */
+        width: 100%; 
+        margin: 0 0 20px 0; 
     }
 }
 
 /* Media query for even smaller screens */
 @media screen and (max-width: 480px) {
     .project {
-        width: 100%; /* Display one project per row */
+        width: 100%;
     }
 }
 /* Contact section styles */
