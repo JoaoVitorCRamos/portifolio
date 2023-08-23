@@ -347,3 +347,9 @@ footer {
     border-radius: 4px;
     cursor: pointer;
 }
+
+@media screen and (max-width: 768px) {
+    .technology-info {
+        max-width: 90%; 
+    }
+}
