@@ -321,7 +321,7 @@ footer {
     background-color: #ff5500;
 }
 
-
+/* Abre telas de tecnologias */
 .technology-info {
     display: none;
     position: fixed;
@@ -353,7 +353,7 @@ footer {
 
 @media screen and (max-width: 768px) {
     .technology-info {
-        width: 90%; 
+        width: 79%; 
         max-width: none; 
     }
 }
